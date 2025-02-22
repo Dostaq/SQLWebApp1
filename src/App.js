@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './logo-cofco-small.png';
 
 function App() {
   return (
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to COFCO International!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.cofcointernational.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          COFCO International
         </a>
       </header>
     </div>
