@@ -4,6 +4,12 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+y
+function MyButton() {
+  return (
+    <button>I'm a button</button>
+  );
+}
 function CofcoinIernational() {
   return <h1 className="greeting">Welcome to COFCO International!</h1>;
 }
@@ -15,9 +21,11 @@ function HelloWorld() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <MyButton />
     <App />
     <CofcoinIernational />
     <HelloWorld />
+    
   </React.StrictMode>
 );
 
